@@ -1,0 +1,66 @@
+@font-face{
+    src:url('../fonts/droid-sans.ttf');
+    font-family:'droid-sans';
+}
+body{
+    direction: rtl;
+}
+.table-resposive{
+    font-family:'droid-sans';
+    font-size: 19px;
+    margin: 50px 75px;
+
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #000;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    padding: 3px;
+    font-size: 17px;
+}
+.head{
+    border: 1px solid #000;
+    border-bottom: none;
+    padding: 5px;
+}
+.img{
+ 
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.create-box{
+    width: 400px;
+    margin: 100px auto;
+}
+.create-box-plus{
+    width: 600px;
+    margin: 50px auto;
+    font-family:'droid-sans';
+}
+.create-box-plus hr{
+    border: 1px solid #777;
+}
+
+.create-box  h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.create-box-plus h2{
+    margin-bottom: 30px;
+}
+
+.create-box , .create-box-plus form{
+    font-family:'droid-sans';
+    font-size: 15px;
+}
+.create-box .alert{
+    padding: 5px;
+    font-family:'droid-sans';
+    font-size: 15px;
+}
+.btn{
+    font-family:'droid-sans';
+}
