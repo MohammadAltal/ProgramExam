@@ -266,7 +266,7 @@
             </div>
             
             <a href="?action=download" class="btn btn-danger">اضغط هنا للحصول على الكود</a>
-            <a href="#" class="btn btn-primary">العودة الى الصفحة الرئيسية</a>
+            <a href="index.php" class="btn btn-primary">العودة الى الصفحة الرئيسية</a>
         </div>
         <?php    } // end if($_SERVER['REQUEST_METHOD'] == 'POST')
         } // end  elseif($action == 'generate')
